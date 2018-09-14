@@ -52,6 +52,6 @@ public class Login extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.sendRedirect("login.html");
+        response.sendRedirect("/login.html");
     }
 }
